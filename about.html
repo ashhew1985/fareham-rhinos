@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="About Fareham Rhinos Tchoukball Club — a Fareham club founded in 2008, welcoming players of all abilities and competing nationally and regionally.">
+<title>About Us | Fareham Rhinos Tchoukball Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><img src="FAREHAM_RHINOS_LOGO.png" alt="Fareham Rhinos logo"></a><button class="menu" aria-label="Open menu" aria-expanded="false">☰</button><nav><a href="index.html">Home</a><a class="active" href="about.html">About</a><a href="team.html">Team</a><a href="results.html">Results</a><a href="join.html">Join Us</a><a href="index.html#gallery">Gallery</a><a href="safeguarding.html">Safeguarding</a><a href="join.html#enquire">Contact</a><a class="nav-cta" href="https://spond.com/invite/VKPPV" target="_blank" rel="noopener">Spond</a></nav></header>
+<main>
+<section class="about-hero-page"><div><p class="eyebrow orange">Fareham · Hampshire · Since 2008</p><h1>WE ARE<br><span>THE RHINOS.</span></h1><p>Fareham Rhinos is a competitive, welcoming tchoukball club based at Fareham Academy. From first sessions to national competition, the club brings players together around a fast, non-contact sport built on movement, teamwork and respect.</p></div></section>
+
+<section class="about-story">
+<div class="about-story-copy"><p class="eyebrow orange">Our club</p><h2>BUILT IN<br>FAREHAM.</h2><p>Tchoukball UK records Rhinos Tchoukball Club as founded in 2008 and based at Fareham Academy. The club is part of the South-East tchoukball community and competes through both national and regional competition.</p><p>Across different seasons, the Rhinos name has been represented by several teams. That structure gives the club room for players at different stages of their tchoukball journey while keeping everyone under one badge.</p><a class="text-link orange" href="results.html">Explore our results →</a></div>
+<div class="about-story-photo"><img src="gallery-3.jpg" alt="Fareham Rhinos players"></div>
+</section>
+
+<section class="rhinos-teams">
+<div class="section-heading"><p class="eyebrow orange">One club. Different teams.</p><h2>THE RHINOS.</h2><p>Team names have changed across competitions and seasons, but they all form part of the Fareham Rhinos story.</p></div>
+<div class="rhinos-team-grid">
+<article><span>01</span><h3>RHINOS BLACK</h3><p>A regional Rhinos side in the current competition records. Black finished first in the 2025/26 South East Division 1 table.</p></article>
+<article><span>02</span><h3>RHINOS ORANGE</h3><p>The club's 2025/26 national side, competing in the National Super 7s before progressing into National League Division 1.</p></article>
+<article><span>03</span><h3>RHINOS BLUE</h3><p>A South East Regional League side, providing another route for Rhinos players to represent the club in competitive tchoukball.</p></article>
+<article><span>04</span><h3>RHINOS PINK</h3><p>Part of the club's regional competition history, with Pink appearing in Tchoukball UK records across previous seasons.</p></article>
+</div>
+<p class="team-history-note">Tchoukball UK's current club directory also lists Rhinos Green as one of the club's teams, and older competition records show the Green name in Rhinos/Fareham history.</p>
+</section>
+
+<section class="about-values">
+<div><p class="eyebrow orange">The game</p><h2>FAST. SOCIAL.<br>NON-CONTACT.</h2></div>
+<div><p>Tchoukball is built around passing, movement and shooting at rebound frames. There are no tackles or interceptions, placing the emphasis on positioning, decision-making and teamwork.</p><p>Rhinos welcomes players of different ages and abilities. Whether you're completely new to the sport or looking for competitive tchoukball, the starting point is the same: come along and meet the club.</p><a class="button" href="join.html">Join the Rhinos</a></div>
+</section>
+
+<section class="about-home">
+<div class="about-home-photo"></div><div class="about-home-copy"><p class="eyebrow orange">Our home</p><h2>FAREHAM<br>ACADEMY.</h2><p>The Rhinos train in Fareham, Hampshire. Our regular Tuesday evening session runs from 8:00–9:30pm.</p><div class="about-home-actions"><a class="button" href="join.html#enquire">Come and try it</a><a class="text-link orange" href="https://spond.com/invite/VKPPV" target="_blank" rel="noopener">Members: open Spond →</a></div></div>
+</section>
+</main>
+<footer><img src="FAREHAM_RHINOS_LOGO.png" alt=""><p>Fareham Rhinos Tchoukball Club</p><p>© <span id="year"></span> Fareham Rhinos</p></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();const menu=document.querySelector(".menu"),nav=document.querySelector("nav");menu.addEventListener("click",()=>{nav.classList.toggle("open");menu.setAttribute("aria-expanded",nav.classList.contains("open"))});</script>
+</body></html>
