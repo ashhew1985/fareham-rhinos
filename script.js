@@ -18,14 +18,18 @@ function renderCard(m){
     const result=m.rhinosScore>m.opponentScore?"WIN":m.rhinosScore<m.opponentScore?"LOSS":"DRAW";
     return `<article class="match-card result">
       <div class="match-type">Recent Result · ${result}</div>
-      <div class="match-versus"><span>RHINOS BLACK</span><strong>${m.rhinosScore} – ${m.opponentScore}</strong><span>${m.opponent}</span></div>
+      <div class="match-versus">
+        <div class="match-side"><img class="team-badge" src="${m.teamLogo||"FAREHAM_RHINOS_LOGO.png"}" alt=""><span>${m.team}</span></div>
+        <strong>${m.rhinosScore} – ${m.opponentScore}</strong>
+        <div class="match-side opponent"><img class="team-badge" src="${m.opponentLogo||""}" alt=""><span>${m.opponent}</span></div>
+      </div>
       <div class="match-meta">${prettyDate(m.date)} · ${m.time}<br>${m.competition}</div>
     </article>`;
   }
   if(m.type==="tournament"){
     return `<article class="match-card fixture tournament">
       <div class="match-type">Up Next · Tournament</div>
-      <div class="tournament-mark">🏆</div>
+      <div class="tournament-brand"><img class="team-badge tournament-badge" src="FAREHAM_RHINOS_LOGO.png" alt="Fareham Rhinos"><span class="tournament-mark">🏆</span></div>
       <div class="match-team">${m.competition}</div>
       <div class="match-meta">${prettyDate(m.date)} – ${new Date(m.endDate+"T12:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"})}<br>${m.venue}, ${m.location}</div>
     </article>`;
