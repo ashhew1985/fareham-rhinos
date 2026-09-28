@@ -175,6 +175,260 @@
       "opponent": "Bury Wolves",
       "rhinosScore": 79,
       "opponentScore": 33
+    },
+    {
+      "id": "2025-11-24-reg-black-guildford",
+      "date": "2025-11-24",
+      "time": "09:10",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Black",
+      "opponent": "Guildford Inferno",
+      "rhinosScore": 59,
+      "opponentScore": 60
+    },
+    {
+      "id": "2025-11-24-reg-black-blue",
+      "date": "2025-11-24",
+      "time": "11:10",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Black",
+      "opponent": "Rhinos Blue",
+      "rhinosScore": 65,
+      "opponentScore": 38
+    },
+    {
+      "id": "2025-11-24-reg-blue-warriors",
+      "date": "2025-11-24",
+      "time": "12:50",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Portsmouth Warriors",
+      "rhinosScore": 42,
+      "opponentScore": 63
+    },
+    {
+      "id": "2026-01-25-reg-black-warriors",
+      "date": "2026-01-25",
+      "time": "10:00",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Black",
+      "opponent": "Portsmouth Warriors",
+      "rhinosScore": 61,
+      "opponentScore": 58
+    },
+    {
+      "id": "2026-01-25-reg-blue-destroyers",
+      "date": "2026-01-25",
+      "time": "11:00",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Portsmouth Destroyers",
+      "rhinosScore": 46,
+      "opponentScore": 57
+    },
+    {
+      "id": "2026-01-25-reg-black-destroyers",
+      "date": "2026-01-25",
+      "time": "13:00",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Black",
+      "opponent": "Portsmouth Destroyers",
+      "rhinosScore": 65,
+      "opponentScore": 47
+    },
+    {
+      "id": "2026-01-25-reg-blue-guildford",
+      "date": "2026-01-25",
+      "time": "14:00",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Guildford Inferno",
+      "rhinosScore": 55,
+      "opponentScore": 56
+    },
+    {
+      "id": "2026-02-22-reg-blue-black",
+      "date": "2026-02-22",
+      "time": "10:00",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Rhinos Black",
+      "rhinosScore": 33,
+      "opponentScore": 71
+    },
+    {
+      "id": "2026-02-22-reg-black-guildford",
+      "date": "2026-02-22",
+      "time": "12:00",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Black",
+      "opponent": "Guildford Inferno",
+      "rhinosScore": 58,
+      "opponentScore": 38
+    },
+    {
+      "id": "2026-02-22-reg-blue-warriors",
+      "date": "2026-02-22",
+      "time": "13:00",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Portsmouth Warriors",
+      "rhinosScore": 44,
+      "opponentScore": 73
+    },
+    {
+      "id": "2026-03-08-reg-blue-guildford",
+      "date": "2026-03-08",
+      "time": "10:00",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Guildford Inferno",
+      "rhinosScore": 41,
+      "opponentScore": 59
+    },
+    {
+      "id": "2026-03-08-reg-black-warriors",
+      "date": "2026-03-08",
+      "time": "11:00",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Black",
+      "opponent": "Portsmouth Warriors",
+      "rhinosScore": 60,
+      "opponentScore": 60
+    },
+    {
+      "id": "2026-03-08-reg-blue-destroyers",
+      "date": "2026-03-08",
+      "time": "12:00",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Portsmouth Destroyers",
+      "rhinosScore": 56,
+      "opponentScore": 43
+    },
+    {
+      "id": "2026-03-08-reg-black-destroyers",
+      "date": "2026-03-08",
+      "time": "14:00",
+      "season": "2025/26",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Black",
+      "opponent": "Portsmouth Destroyers",
+      "rhinosScore": 61,
+      "opponentScore": 54
+    },
+    {
+      "id": "2024-11-24-reg-pink-blue",
+      "date": "2024-11-24",
+      "season": "2024/25",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Pink",
+      "opponent": "Rhinos Blue",
+      "rhinosScore": 67,
+      "opponentScore": 38
+    },
+    {
+      "id": "2024-11-24-reg-blue-warriors",
+      "date": "2024-11-24",
+      "season": "2024/25",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Portsmouth Warriors",
+      "rhinosScore": 47,
+      "opponentScore": 63
+    },
+    {
+      "id": "2025-01-12-reg-blue-destroyers",
+      "date": "2025-01-12",
+      "season": "2024/25",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Portsmouth Destroyers",
+      "rhinosScore": 56,
+      "opponentScore": 68
+    },
+    {
+      "id": "2025-01-12-reg-blue-guildford",
+      "date": "2025-01-12",
+      "season": "2024/25",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Guildford Inferno",
+      "rhinosScore": 45,
+      "opponentScore": 83
+    },
+    {
+      "id": "2025-02-16-reg-pink-blue",
+      "date": "2025-02-16",
+      "season": "2024/25",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Pink",
+      "opponent": "Rhinos Blue",
+      "rhinosScore": 77,
+      "opponentScore": 38
+    },
+    {
+      "id": "2025-02-16-reg-blue-warriors",
+      "date": "2025-02-16",
+      "season": "2024/25",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Portsmouth Warriors",
+      "rhinosScore": 42,
+      "opponentScore": 62
+    },
+    {
+      "id": "2025-03-09-reg-blue-destroyers",
+      "date": "2025-03-09",
+      "season": "2024/25",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Portsmouth Destroyers",
+      "rhinosScore": 44,
+      "opponentScore": 64
+    },
+    {
+      "id": "2025-03-09-reg-blue-guildford",
+      "date": "2025-03-09",
+      "season": "2024/25",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Blue",
+      "opponent": "Guildford Inferno",
+      "rhinosScore": 43,
+      "opponentScore": 71
+    },
+    {
+      "id": "2025-03-09-reg-pink-destroyers",
+      "date": "2025-03-09",
+      "season": "2024/25",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Pink",
+      "opponent": "Portsmouth Destroyers",
+      "rhinosScore": 65,
+      "opponentScore": 49
+    },
+    {
+      "id": "2025-03-09-reg-pink-warriors",
+      "date": "2025-03-09",
+      "season": "2024/25",
+      "competition": "South East Regional League Division 1",
+      "team": "Rhinos Pink",
+      "opponent": "Portsmouth Warriors",
+      "rhinosScore": 63,
+      "opponentScore": 60
     }
   ]
 }
