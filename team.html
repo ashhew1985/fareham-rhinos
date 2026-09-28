@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Meet the Fareham Rhinos Tchoukball Club team. Player and coach profiles coming soon.">
+<title>Team | Fareham Rhinos Tchoukball Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><img src="FAREHAM_RHINOS_LOGO.png" alt="Fareham Rhinos logo"></a><button class="menu" aria-label="Open menu" aria-expanded="false">☰</button><nav><a href="index.html">Home</a><a class="active" href="team.html">Team</a><a href="join.html">Join Us</a><a href="index.html#gallery">Gallery</a><a href="index.html#safeguarding">Safeguarding</a><a href="index.html#contact">Contact</a><a class="nav-cta" href="#spond">Spond</a></nav></header>
+<main>
+<section class="team-coming">
+  <div class="team-coming-bg"></div>
+  <div class="team-coming-content">
+    <img src="FAREHAM_RHINOS_LOGO.png" alt="Fareham Rhinos Tchoukball Club">
+    <p class="eyebrow orange">Meet the Rhinos</p>
+    <h1>TEAM PAGE<br><span>COMING SOON.</span></h1>
+    <p>We're getting the squad together. Player profiles, coaches and more from the Fareham Rhinos will be added here soon.</p>
+    <a class="button" href="join.html">Join the Rhinos</a>
+  </div>
+</section>
+</main>
+<footer><img src="FAREHAM_RHINOS_LOGO.png" alt=""><p>Fareham Rhinos Tchoukball Club</p><p>© <span id="year"></span> Fareham Rhinos</p></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();const menu=document.querySelector(".menu"),nav=document.querySelector("nav");menu.addEventListener("click",()=>{nav.classList.toggle("open");menu.setAttribute("aria-expanded",nav.classList.contains("open"))});</script>
+</body></html>
