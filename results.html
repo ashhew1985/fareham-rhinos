@@ -12,11 +12,11 @@
 <header class="site-header"><a class="brand" href="index.html"><img src="FAREHAM_RHINOS_LOGO.png" alt="Fareham Rhinos logo"></a><button class="menu" aria-label="Open menu" aria-expanded="false">☰</button><nav><a href="index.html">Home</a><a href="team.html">Team</a><a class="active" href="results.html">Results</a><a href="join.html">Join Us</a><a href="index.html#gallery">Gallery</a><a href="safeguarding.html">Safeguarding</a><a href="join.html#enquire">Contact</a><a class="nav-cta" href="https://spond.com/invite/VKPPV" target="_blank" rel="noopener">Spond</a></nav></header>
 <main>
 <section class="results-hero"><p class="eyebrow orange">Club history</p><h1>RHINOS<br><span>RESULTS.</span></h1><p>Every national league result, kept in one place. New results will be added here as the Rhinos season continues.</p></section>
-<section class="results-archive"><div id="results-archive"><p>Loading results…</p></div><p class="results-source">Historical results sourced from Tchoukball UK competition records.</p></section>
+<section class="results-archive"><div id="results-archive"><p>Loading results…</p></div><p class="results-source">Historical results sourced from Tchoukball UK competition records. National and South East Regional League results are included.</p></section>
 </main>
 <footer><img src="FAREHAM_RHINOS_LOGO.png" alt=""><p>Fareham Rhinos Tchoukball Club</p><p>© <span id="year"></span> Fareham Rhinos</p></footer>
 <script>
-const logos={"Portsmouth Destroyers":"portsmouth-destroyers.png","Portsmouth Warriors":"portsmouth-destroyers.png","Guildford Inferno":"guildford.png","Leeds Galaxy":"leeds.png","Bury Saints":"bury-saints.png","Bury Kings":"bury-saints.png","Bury Wolves":"bury-saints.png"};
+const logos={"Portsmouth Destroyers":"portsmouth-destroyers.png","Portsmouth Warriors":"portsmouth-destroyers.png","Guildford Inferno":"guildford.png","Leeds Galaxy":"leeds.png","Bury Saints":"bury-saints.png","Bury Kings":"bury-saints.png","Bury Wolves":"bury-saints.png","Rhinos Black":"FAREHAM_RHINOS_LOGO.png","Rhinos Blue":"FAREHAM_RHINOS_LOGO.png","Rhinos Pink":"FAREHAM_RHINOS_LOGO.png","Rhinos Orange":"FAREHAM_RHINOS_LOGO.png"};
 const seasonFor=d=>{const x=new Date(d+"T12:00:00"),y=x.getFullYear(),m=x.getMonth()+1;return m>=8?y+"/"+String(y+1).slice(-2):(y-1)+"/"+String(y).slice(-2)};
 const fmt=d=>new Date(d+"T12:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
 async function loadResults(){
