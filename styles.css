@@ -6,3 +6,38 @@
 .instagram-preview a{display:block;overflow:hidden;text-decoration:none}.instagram-coming{aspect-ratio:1;background:linear-gradient(135deg,#1b1b1b,#0d0d0d);border:1px solid #2b2b2b;display:flex!important;flex-direction:column;align-items:center;justify-content:center;padding:24px;color:#fff;text-transform:uppercase;font-family:"Barlow Condensed",Arial,sans-serif}.instagram-coming span{color:var(--orange);font-size:18px;font-weight:800;letter-spacing:.08em}.instagram-coming strong{font-size:clamp(24px,3vw,40px);line-height:.95;margin-top:10px;max-width:240px}.instagram-preview a:hover img{filter:saturate(1.15);transform:scale(1.015)}
 
 .spond-hub{margin:0 clamp(24px,8vw,120px);padding:46px 52px;background:#111;border-left:5px solid var(--orange);display:grid;grid-template-columns:1.4fr .8fr;gap:50px;align-items:center}.spond-hub h2{font-family:"Barlow Condensed",Arial,sans-serif;text-transform:uppercase;font-size:clamp(42px,5vw,70px);font-style:italic;line-height:.88;margin:10px 0 22px}.spond-hub-copy>p:last-child{color:#bbb;line-height:1.7;max-width:650px;margin-bottom:0}.spond-hub-action{display:flex;flex-direction:column;align-items:flex-start;gap:18px}.spond-code{font-family:"Barlow Condensed",Arial,sans-serif;color:#888;font-size:16px;letter-spacing:.1em}.spond-code strong{color:#fff;font-size:22px;margin-left:8px}.spond-hub-action .button{width:100%;text-align:center}@media(max-width:850px){.spond-hub{margin:0 24px;padding:34px 28px;grid-template-columns:1fr;gap:28px}.spond-hub-action .button{width:auto}}@media(max-width:500px){.spond-hub{margin:0;padding:34px 24px;border-left:0;border-top:4px solid var(--orange)}.spond-hub-action .button{width:100%}}
+
+/* Mobile density pass */
+@media(max-width:500px){
+  .site-header .brand img{width:66px;height:66px}
+  .matches,.social,.policy{padding:54px 24px}
+  .matches .section-heading h2{margin-bottom:26px}
+  .match-card{min-height:0;padding:20px 16px}
+  .match-grid{gap:10px}
+  .match-type{font-size:11px}
+  .match-versus{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:center;margin:18px 0 14px;text-align:center}
+  .match-side,.match-side.opponent{align-items:center;text-align:center;min-width:0;gap:7px}
+  .team-badge{width:52px;height:52px}
+  .match-versus span{font-size:15px;line-height:1.05}
+  .match-versus strong{font-size:32px}
+  .match-meta{text-align:center;font-size:12px;line-height:1.45}
+  .match-card.tournament{padding:20px}
+  .tournament-brand{margin:14px 0 8px}
+  .tournament-badge{width:54px;height:54px}
+  .tournament-brand .tournament-mark{font-size:24px}
+  .tournament .match-team{font-size:25px;margin:8px 0}
+  .tournament .match-meta{text-align:left;margin-top:10px}
+  .training-copy{padding:52px 24px}
+  .training-copy h2{margin-bottom:26px}
+  .training-facts{margin:28px 0}
+  .training-photo{min-height:300px}
+  .about{padding:58px 24px;gap:30px}
+  .about-photo img{height:340px}
+  .about-heading h2{margin-bottom:12px}
+  .about-copy{font-size:17px;line-height:1.65}
+  .social-grid{margin:28px 0}
+  .policy h2{margin-bottom:24px}
+  .contact{padding:58px 24px}
+  .contact h2{margin-bottom:24px}
+  footer{padding:24px}
+}
