@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Safeguarding information and reporting for Fareham Rhinos Tchoukball Club.">
+<title>Safeguarding | Fareham Rhinos Tchoukball Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><img src="FAREHAM_RHINOS_LOGO.png" alt="Fareham Rhinos logo"></a><button class="menu" aria-label="Open menu" aria-expanded="false">☰</button><nav><a href="index.html">Home</a><a href="team.html">Team</a><a href="join.html">Join Us</a><a href="index.html#gallery">Gallery</a><a class="active" href="safeguarding.html">Safeguarding</a><a href="index.html#contact">Contact</a><a class="nav-cta" href="#spond">Spond</a></nav></header>
+<main>
+<section class="safe-hero"><div><p class="eyebrow orange">Safe sport. Clear support.</p><h1>SAFEGUARDING<br><span>AT THE RHINOS.</span></h1><p>Fareham Rhinos is committed to creating a safe environment for children, young people and vulnerable adults taking part in our club.</p></div></section>
+
+<section class="safe-lead">
+<div><p class="eyebrow orange">Your safeguarding lead</p><h2>ASHLEY<br>JOHNSON</h2><p>Ashley Johnson is the club's <strong>Designated Safeguarding Lead (DSL)</strong> and is responsible for safeguarding and child protection issues at Fareham Rhinos.</p><p>Any safeguarding concern, no matter how small, should be reported promptly. You can speak to Ashley directly at the club or use the confidential reporting form below.</p><a class="button" href="#report">Report a concern</a></div>
+<div class="safe-principles"><div><span>01</span><strong>Welfare first</strong><p>The welfare of the child or vulnerable adult is the paramount concern.</p></div><div><span>02</span><strong>Report concerns</strong><p>Don't investigate a concern yourself. Record the facts and report it.</p></div><div><span>03</span><strong>Handled discreetly</strong><p>Safeguarding concerns are handled with discretion and confidentiality wherever possible.</p></div></div>
+</section>
+
+<section class="safe-emergency"><div><strong>IS SOMEONE IN IMMEDIATE DANGER?</strong><p>Do not wait for a response from this website. Call <b>999</b>. For urgent safeguarding concerns you can also contact Hampshire Children's Services on <b>0300 555 1384</b>.</p></div></section>
+
+<section class="safe-report" id="report">
+<div class="form-copy"><p class="eyebrow orange">Confidential reporting</p><h2>REPORT A<br>CONCERN.</h2><p>You can identify yourself or make an anonymous report. Please give factual information and don't investigate the matter yourself.</p><p class="privacy-note">If you report anonymously, we will not be able to contact you for clarification or provide a response. Information submitted here is intended for safeguarding purposes and may need to be shared with appropriate safeguarding agencies where necessary.</p></div>
+<form class="join-form safe-form" id="safe-form">
+<input type="hidden" name="form_type" value="Safeguarding Concern">
+<div class="field full"><label for="report-type">How would you like to report?</label><select id="report-type" name="report_type" required><option value="contact">I am happy to provide my contact details</option><option value="anonymous">I want to report anonymously</option></select></div>
+<div class="field contact-detail"><label for="safe-name">Your name</label><input id="safe-name" name="name" type="text" autocomplete="name"></div>
+<div class="field contact-detail"><label for="safe-email">Email address</label><input id="safe-email" name="email" type="email" autocomplete="email"></div>
+<div class="field full"><label for="concern">What are you concerned about?</label><textarea id="concern" name="concern" rows="7" required placeholder="Please describe what happened or what you observed. Include factual details such as dates, times and names where known."></textarea></div>
+<div class="field"><label for="when">When did this happen?</label><input id="when" name="when" type="text" placeholder="Date / time if known"></div>
+<div class="field"><label for="where">Where did this happen?</label><input id="where" name="where" type="text" placeholder="Location if known"></div>
+<div class="field full"><label for="action">Has any action already been taken?</label><textarea id="action" name="action_taken" rows="3" placeholder="For example, whether someone has already been told."></textarea></div>
+<div class="field full honeypot" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+<div class="field full"><button class="button form-button" type="submit">Submit safeguarding concern</button><p class="form-status" id="safe-status" role="status"></p><p class="safe-pending">Secure online submission is being connected. Until then, please speak directly to the Designated Safeguarding Lead at the club. For urgent concerns use the contacts above.</p></div>
+</form>
+</section>
+
+<section class="safe-policy">
+<div><p class="eyebrow orange">Club policy</p><h2>OUR SAFEGUARDING<br>COMMITMENT.</h2></div>
+<div><p>Our safeguarding policy sets out the club's approach to protecting children and vulnerable adults, the responsibilities of coaches, volunteers, parents and members, and the procedure for responding to concerns.</p><p>The policy includes safe recruitment, safeguarding training, a code of conduct, incident reporting and referral to appropriate safeguarding agencies where required.</p><p class="policy-status">The current policy document is being prepared for publication here.</p></div>
+</section>
+</main>
+<footer><img src="FAREHAM_RHINOS_LOGO.png" alt=""><p>Fareham Rhinos Tchoukball Club</p><p>© <span id="year"></span> Fareham Rhinos</p></footer>
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+const menu=document.querySelector(".menu"),nav=document.querySelector("nav");menu.addEventListener("click",()=>{nav.classList.toggle("open");menu.setAttribute("aria-expanded",nav.classList.contains("open"))});
+const reportType=document.getElementById("report-type"),contactFields=document.querySelectorAll(".contact-detail");
+function toggleContact(){const anon=reportType.value==="anonymous";contactFields.forEach(field=>{field.style.display=anon?"none":"flex";field.querySelector("input").required=!anon;});}
+reportType.addEventListener("change",toggleContact);toggleContact();
+document.getElementById("safe-form").addEventListener("submit",e=>{e.preventDefault();document.getElementById("safe-status").textContent="Online safeguarding submissions are not connected yet. Please use the safeguarding contacts above.";});
+</script>
+</body></html>
