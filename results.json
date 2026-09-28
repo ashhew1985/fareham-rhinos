@@ -1,0 +1,180 @@
+{
+  "matches": [
+    {
+      "id": "2024-11-17-leeds-black",
+      "date": "2024-11-17",
+      "time": "12:25",
+      "season": "2024/25",
+      "competition": "National Super 8s",
+      "team": "Rhinos Black",
+      "opponent": "Leeds Galaxy",
+      "rhinosScore": 71,
+      "opponentScore": 38
+    },
+    {
+      "id": "2024-11-17-guildford-black",
+      "date": "2024-11-17",
+      "time": "16:45",
+      "season": "2024/25",
+      "competition": "National Super 8s",
+      "team": "Rhinos Black",
+      "opponent": "Guildford Inferno",
+      "rhinosScore": 52,
+      "opponentScore": 67
+    },
+    {
+      "id": "2025-01-19-portsmouth-warriors-black",
+      "date": "2025-01-19",
+      "time": "12:25",
+      "season": "2024/25",
+      "competition": "National Super 8s",
+      "team": "Rhinos Black",
+      "opponent": "Portsmouth Warriors",
+      "rhinosScore": 48,
+      "opponentScore": 60
+    },
+    {
+      "id": "2025-01-19-portsmouth-destroyers-black",
+      "date": "2025-01-19",
+      "time": "16:45",
+      "season": "2024/25",
+      "competition": "National Super 8s",
+      "team": "Rhinos Black",
+      "opponent": "Portsmouth Destroyers",
+      "rhinosScore": 77,
+      "opponentScore": 38
+    },
+    {
+      "id": "2025-02-02-bury-wolves-black",
+      "date": "2025-02-02",
+      "time": "09:10",
+      "season": "2024/25",
+      "competition": "National Super 8s",
+      "team": "Rhinos Black",
+      "opponent": "Bury Wolves",
+      "rhinosScore": 85,
+      "opponentScore": 29
+    },
+    {
+      "id": "2025-02-02-bury-saints-black",
+      "date": "2025-02-02",
+      "time": "13:30",
+      "season": "2024/25",
+      "competition": "National Super 8s",
+      "team": "Rhinos Black",
+      "opponent": "Bury Saints",
+      "rhinosScore": 69,
+      "opponentScore": 51
+    },
+    {
+      "id": "2025-03-02-bury-kings-black",
+      "date": "2025-03-02",
+      "time": "11:20",
+      "season": "2024/25",
+      "competition": "National Super 8s",
+      "team": "Rhinos Black",
+      "opponent": "Bury Kings",
+      "rhinosScore": 53,
+      "opponentScore": 67
+    },
+    {
+      "id": "2025-11-16-bury-kings-orange",
+      "date": "2025-11-16",
+      "time": "13:30",
+      "season": "2025/26",
+      "competition": "National Super 7s",
+      "team": "Rhinos Orange",
+      "opponent": "Bury Kings",
+      "rhinosScore": 40,
+      "opponentScore": 75
+    },
+    {
+      "id": "2025-11-16-leeds-orange",
+      "date": "2025-11-16",
+      "time": "16:45",
+      "season": "2025/26",
+      "competition": "National Super 7s",
+      "team": "Rhinos Orange",
+      "opponent": "Leeds Galaxy",
+      "rhinosScore": 54,
+      "opponentScore": 59
+    },
+    {
+      "id": "2026-01-11-bury-saints-orange",
+      "date": "2026-01-11",
+      "time": "11:25",
+      "season": "2025/26",
+      "competition": "National Super 7s",
+      "team": "Rhinos Orange",
+      "opponent": "Bury Saints",
+      "rhinosScore": 59,
+      "opponentScore": 42
+    },
+    {
+      "id": "2026-01-11-portsmouth-warriors-orange",
+      "date": "2026-01-11",
+      "time": "13:35",
+      "season": "2025/26",
+      "competition": "National Super 7s",
+      "team": "Rhinos Orange",
+      "opponent": "Portsmouth Warriors",
+      "rhinosScore": 51,
+      "opponentScore": 67
+    },
+    {
+      "id": "2026-02-08-portsmouth-destroyers-orange",
+      "date": "2026-02-08",
+      "time": "09:15",
+      "season": "2025/26",
+      "competition": "National Super 7s",
+      "team": "Rhinos Orange",
+      "opponent": "Portsmouth Destroyers",
+      "rhinosScore": 62,
+      "opponentScore": 40
+    },
+    {
+      "id": "2026-02-08-guildford-orange",
+      "date": "2026-02-08",
+      "time": "13:35",
+      "season": "2025/26",
+      "competition": "National Super 7s",
+      "team": "Rhinos Orange",
+      "opponent": "Guildford Inferno",
+      "rhinosScore": 54,
+      "opponentScore": 60
+    },
+    {
+      "id": "2026-04-12-portsmouth-orange",
+      "date": "2026-04-12",
+      "time": "14:05",
+      "season": "2025/26",
+      "competition": "National League Division 1",
+      "team": "Rhinos Orange",
+      "opponent": "Portsmouth Destroyers",
+      "rhinosScore": 58,
+      "opponentScore": 45
+    },
+    {
+      "id": "2026-04-26-bury-saints-orange",
+      "date": "2026-04-26",
+      "time": "10:50",
+      "season": "2025/26",
+      "competition": "National League Division 1",
+      "team": "Rhinos Orange",
+      "opponent": "Bury Saints",
+      "rhinosScore": 58,
+      "opponentScore": 74
+    },
+    {
+      "id": "2026-04-26-bury-wolves-orange",
+      "date": "2026-04-26",
+      "time": "15:10",
+      "season": "2025/26",
+      "competition": "National League Division 1",
+      "team": "Rhinos Orange",
+      "opponent": "Bury Wolves",
+      "rhinosScore": 79,
+      "opponentScore": 33
+    }
+  ]
+}
