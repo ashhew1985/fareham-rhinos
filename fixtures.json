@@ -1,0 +1,38 @@
+{
+  "matches": [
+    {
+      "id": "2026-04-12-portsmouth",
+      "type": "match",
+      "status": "completed",
+      "date": "2026-04-12",
+      "time": "14:05",
+      "competition": "National League",
+      "team": "Rhinos Black",
+      "opponent": "Portsmouth Destroyers",
+      "rhinosScore": 58,
+      "opponentScore": 45
+    },
+    {
+      "id": "2026-04-26-bury",
+      "type": "match",
+      "status": "completed",
+      "date": "2026-04-26",
+      "time": "10:50",
+      "competition": "National League",
+      "team": "Rhinos Black",
+      "opponent": "Bury Saints",
+      "rhinosScore": 58,
+      "opponentScore": 74
+    },
+    {
+      "id": "2026-dfm",
+      "type": "tournament",
+      "status": "upcoming",
+      "date": "2026-10-24",
+      "endDate": "2026-10-25",
+      "competition": "Domini Fox Memorial Tournament",
+      "venue": "Mountbatten Centre",
+      "location": "Portsmouth"
+    }
+  ]
+}
