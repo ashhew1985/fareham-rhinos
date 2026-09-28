@@ -10,7 +10,9 @@
       "team": "Rhinos Black",
       "opponent": "Portsmouth Destroyers",
       "rhinosScore": 58,
-      "opponentScore": 45
+      "opponentScore": 45,
+      "teamLogo": "FAREHAM_RHINOS_LOGO.png",
+      "opponentLogo": "portsmouth-destroyers.png"
     },
     {
       "id": "2026-04-26-bury",
@@ -22,7 +24,9 @@
       "team": "Rhinos Black",
       "opponent": "Bury Saints",
       "rhinosScore": 58,
-      "opponentScore": 74
+      "opponentScore": 74,
+      "teamLogo": "FAREHAM_RHINOS_LOGO.png",
+      "opponentLogo": "bury-saints.png"
     },
     {
       "id": "2026-dfm",
