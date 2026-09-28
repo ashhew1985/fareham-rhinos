@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Join Fareham Rhinos Tchoukball Club. Beginners welcome. Find training information and send the club an enquiry.">
+<title>Join Us | Fareham Rhinos Tchoukball Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><img src="FAREHAM_RHINOS_LOGO.png" alt="Fareham Rhinos logo"></a><button class="menu" aria-label="Open menu" aria-expanded="false">☰</button><nav><a href="index.html">Home</a><a href="index.html#team">Team</a><a class="active" href="join.html">Join Us</a><a href="index.html#gallery">Gallery</a><a href="index.html#safeguarding">Safeguarding</a><a href="index.html#contact">Contact</a><a class="nav-cta" href="#spond">Spond</a></nav></header>
+<main>
+<section class="join-hero"><div><p class="eyebrow orange">Come and try tchoukball</p><h1>JOIN THE<br><span>RHINOS.</span></h1><p>New to tchoukball? No problem. Come along, meet the club and give one of the fastest team sports around a try.</p></div></section>
+<section class="join-intro">
+<div><p class="eyebrow orange">Your first session</p><h2>BEGINNERS<br>WELCOME.</h2><p>You don't need previous tchoukball experience to get started. We'll introduce you to the basics, get a ball in your hands and help you learn the game alongside the rest of the club.</p><p>Send us a quick enquiry before coming along so we can make sure you have the right session information.</p></div>
+<div class="join-facts"><div><span>WHEN</span><strong>Tuesday</strong><p>8:00–9:30pm</p></div><div><span>WHERE</span><strong>Fareham Academy</strong><p>Fareham, Hampshire</p></div><div><span>EXPERIENCE</span><strong>Not required</strong><p>Beginners are welcome.</p></div></div>
+</section>
+<section class="join-form-section" id="enquire">
+<div class="form-copy"><p class="eyebrow orange">Interested?</p><h2>COME AND<br>MEET US.</h2><p>Tell us a little about yourself and we'll get back to you with everything you need for your first session.</p><p class="privacy-note">Your details are used only to respond to your club enquiry. Please don't include unnecessary medical or other sensitive information in this form.</p></div>
+<form class="join-form" id="join-form">
+<div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+<div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+<div class="field"><label for="age-group">Who is the enquiry for?</label><select id="age-group" name="age_group" required><option value="">Please choose</option><option>Adult</option><option>Under 18</option><option>Parent / guardian enquiring for a young player</option></select></div>
+<div class="field"><label for="experience">Tchoukball experience</label><select id="experience" name="experience"><option>Complete beginner</option><option>Played at school</option><option>Played at a club before</option><option>Current / returning player</option></select></div>
+<div class="field full"><label for="message">Anything you'd like us to know?</label><textarea id="message" name="message" rows="5" placeholder="A short message is plenty."></textarea></div>
+<div class="field full honeypot" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+<div class="field full"><button class="button form-button" type="submit">Send enquiry</button><p class="form-status" id="form-status" role="status"></p></div>
+</form>
+</section>
+</main>
+<footer><img src="FAREHAM_RHINOS_LOGO.png" alt=""><p>Fareham Rhinos Tchoukball Club</p><p>© <span id="year"></span> Fareham Rhinos</p></footer>
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+const menu=document.querySelector(".menu"),nav=document.querySelector("nav");menu.addEventListener("click",()=>{nav.classList.toggle("open");menu.setAttribute("aria-expanded",nav.classList.contains("open"))});
+document.getElementById("join-form").addEventListener("submit",e=>{e.preventDefault();const status=document.getElementById("form-status");status.textContent="The enquiry form is ready, but email delivery still needs to be connected. Please check back shortly.";});
+</script>
+</body></html>
