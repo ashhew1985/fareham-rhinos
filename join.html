@@ -18,7 +18,7 @@
 </section>
 <section class="join-form-section" id="enquire">
 <div class="form-copy"><p class="eyebrow orange">Interested?</p><h2>COME AND<br>MEET US.</h2><p>Tell us a little about yourself and we'll get back to you with everything you need for your first session.</p><p class="privacy-note">Your details are used only to respond to your club enquiry. Please don't include unnecessary medical or other sensitive information in this form.</p></div>
-<form class="join-form" id="join-form">
+<form class="join-form" id="join-form" action="https://formspree.io/f/xnpnlpoe" method="POST">
 <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
 <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required></div>
 <div class="field"><label for="age-group">Who is the enquiry for?</label><select id="age-group" name="age_group" required><option value="">Please choose</option><option>Adult</option><option>Under 18</option><option>Parent / guardian enquiring for a young player</option></select></div>
@@ -33,6 +33,18 @@
 <script>
 document.getElementById("year").textContent=new Date().getFullYear();
 const menu=document.querySelector(".menu"),nav=document.querySelector("nav");menu.addEventListener("click",()=>{nav.classList.toggle("open");menu.setAttribute("aria-expanded",nav.classList.contains("open"))});
-document.getElementById("join-form").addEventListener("submit",e=>{e.preventDefault();const status=document.getElementById("form-status");status.textContent="The enquiry form is ready, but email delivery still needs to be connected. Please check back shortly.";});
+document.getElementById("join-form").addEventListener("submit",async e=>{
+  e.preventDefault();
+  const form=e.currentTarget,status=document.getElementById("form-status"),button=form.querySelector("button[type=submit]");
+  if(form.website.value){return;}
+  button.disabled=true;button.textContent="Sending…";status.textContent="";
+  try{
+    const response=await fetch(form.action,{method:"POST",body:new FormData(form),headers:{"Accept":"application/json"}});
+    if(!response.ok) throw new Error("Submission failed");
+    form.reset();status.textContent="Thanks — your enquiry has been sent. We'll get back to you as soon as we can.";button.textContent="Enquiry sent";
+  }catch(error){
+    status.textContent="Sorry, we couldn't send your enquiry. Please try again in a moment.";button.disabled=false;button.textContent="Send enquiry";
+  }
+});
 </script>
 </body></html>
