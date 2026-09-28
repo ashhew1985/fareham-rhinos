@@ -32,7 +32,7 @@
 <div class="field"><label for="where">Where did this happen?</label><input id="where" name="where" type="text" placeholder="Location if known"></div>
 <div class="field full"><label for="action">Has any action already been taken?</label><textarea id="action" name="action_taken" rows="3" placeholder="For example, whether someone has already been told."></textarea></div>
 <div class="field full honeypot" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
-<div class="field full"><button class="button form-button" type="submit">Submit safeguarding concern</button><p class="form-status" id="safe-status" role="status"></p><p class="safe-pending">Secure online submission is being connected. Until then, please speak directly to the Designated Safeguarding Lead at the club. For urgent concerns use the contacts above.</p></div>
+<div class="field full"><button class="button form-button" type="submit">Submit safeguarding concern</button><p class="form-status" id="safe-status" role="status"></p><p class="form-status" id="safe-status" role="status"></p></div>
 </form>
 </section>
 
@@ -48,6 +48,45 @@ const menu=document.querySelector(".menu"),nav=document.querySelector("nav");men
 const reportType=document.getElementById("report-type"),contactFields=document.querySelectorAll(".contact-detail");
 function toggleContact(){const anon=reportType.value==="anonymous";contactFields.forEach(field=>{field.style.display=anon?"none":"flex";field.querySelector("input").required=!anon;});}
 reportType.addEventListener("change",toggleContact);toggleContact();
-document.getElementById("safe-form").addEventListener("submit",e=>{e.preventDefault();document.getElementById("safe-status").textContent="Online safeguarding submissions are not connected yet. Please use the safeguarding contacts above.";});
+document.getElementById("safe-form").addEventListener("submit", async e => {
+  e.preventDefault();
+
+  const form = e.currentTarget;
+  const status = document.getElementById("safe-status");
+  const button = form.querySelector("button[type=submit]");
+
+  if (form.website.value) {
+    return;
+  }
+
+  button.disabled = true;
+  button.textContent = "Sending…";
+  status.textContent = "";
+
+  try {
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: new FormData(form),
+      headers: {
+        "Accept": "application/json"
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error("Submission failed");
+    }
+
+    form.reset();
+    toggleContact();
+
+    status.textContent = "Thank you. Your safeguarding concern has been submitted to the club's Designated Safeguarding Lead.";
+    button.textContent = "Concern submitted";
+
+  } catch (error) {
+    status.textContent = "Sorry, we couldn't submit your concern. If the matter is urgent, please use the safeguarding contacts shown above.";
+    button.disabled = false;
+    button.textContent = "Submit safeguarding concern";
+  }
+});
 </script>
 </body></html>
