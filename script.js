@@ -5,7 +5,7 @@ async function loadMatchCentre(){
     if(!response.ok) throw new Error("Fixture data unavailable");
     const {matches}=await response.json();
     const completed=matches.filter(m=>m.status==="completed").sort((a,b)=>new Date(b.date+"T"+(b.time||"00:00"))-new Date(a.date+"T"+(a.time||"00:00"))).slice(0,2).reverse();
-    const upcoming=matches.filter(m=>m.status==="upcoming").sort((a,b)=>new Date(a.date)-new Date(b.date)).slice(0,2);
+    const upcoming=matches.filter(m=>m.status==="upcoming" && m.type==="tournament").sort((a,b)=>new Date(a.date)-new Date(b.date)).slice(0,2);
     const cards=[...completed,...upcoming];
     grid.innerHTML=cards.map(renderCard).join("");
   }catch(error){
