@@ -7,6 +7,18 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<style>
+/* Collapsible news stories keep headlines and introductory summaries visible. */
+.news-expand{margin-top:1rem}
+.news-expand summary{display:inline-flex;align-items:center;gap:.5rem;cursor:pointer;font-weight:800;text-transform:uppercase;letter-spacing:.055em;color:inherit;list-style:none;border-bottom:2px solid currentColor;padding:.35rem 0;transition:opacity .2s}
+.news-expand summary::-webkit-details-marker{display:none}
+.news-expand summary::marker{content:""}
+.news-expand summary:hover{opacity:.7}
+.news-expand summary:focus-visible{outline:3px solid #f58220;outline-offset:4px}
+.news-expand summary span{display:inline-block;transition:transform .2s}
+.news-expand[open] summary span{transform:rotate(180deg)}
+.news-expand[open] summary{margin-bottom:.75rem}
+</style>
 </head>
 <body>
 <header class="site-header"><a class="brand" href="index.html"><img src="FAREHAM_RHINOS_LOGO.png" alt="Fareham Rhinos logo"></a><button class="menu" aria-label="Open menu" aria-expanded="false">☰</button><nav><a href="index.html">Home</a><a href="about.html">About</a><a href="team.html">Team</a><a href="results.html">Results</a><a class="active" href="news.html">News</a><a href="join.html">Join Us</a><a href="safeguarding.html">Safeguarding</a><a href="join.html#enquire">Contact</a><a class="nav-cta" href="https://spond.com/invite/VKPPV" target="_blank" rel="noopener">Spond</a></nav></header>
@@ -26,7 +38,7 @@ async function loadNews(){
   const r=await fetch("news.json",{cache:"no-store"}); if(!r.ok)throw new Error();
   const stories=(await r.json()).stories.sort((a,b)=>new Date(b.date)-new Date(a.date));
   if(!stories.length){box.innerHTML='<div class="news-empty"><img src="FAREHAM_RHINOS_LOGO.png" alt=""><p class="eyebrow orange">News desk ready</p><h3>THE NEXT CHAPTER STARTS HERE.</h3><p>Match reports and club updates will appear here as the Rhinos season continues.</p></div>';return}
-  box.innerHTML=stories.map((s,i)=>`<article class="news-card ${i===0?"featured":""}">${s.image?`<div class="news-card-image"><img src="${s.image}" alt=""></div>`:""}<div class="news-card-copy"><div class="news-meta"><span>${s.category||"Club News"}</span><time datetime="${s.date}">${fmt(s.date)}</time></div><h3>${s.title}</h3><p>${s.summary}</p>${s.body?`<div class="news-body">${s.body.map(p=>`<p>${p}</p>`).join("")}</div>`:""}</div></article>`).join("");
+  box.innerHTML=stories.map((s,i)=>`<article class="news-card ${i===0?"featured":""}">${s.image?`<div class="news-card-image"><img src="${s.image}" alt=""></div>`:""}<div class="news-card-copy"><div class="news-meta"><span>${s.category||"Club News"}</span><time datetime="${s.date}">${fmt(s.date)}</time></div><h3>${s.title}</h3><p>${s.summary}</p>${s.body?.length?`<details class="news-expand"><summary>Read more <span aria-hidden="true">⌄</span></summary><div class="news-body">${s.body.map(p=>`<p>${p}</p>`).join("")}</div></details>`:""}</div></article>`).join("");
  }catch(e){box.innerHTML="<p>Club news is temporarily unavailable.</p>"}
 }
 loadNews();document.getElementById("year").textContent=new Date().getFullYear();const menu=document.querySelector(".menu"),nav=document.querySelector("nav");menu.addEventListener("click",()=>{nav.classList.toggle("open");menu.setAttribute("aria-expanded",nav.classList.contains("open"))});
