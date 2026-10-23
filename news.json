@@ -1,6 +1,38 @@
 {
   "stories": [
     {
+      "id": "2026-dfm-weekend-preview",
+      "date": "2026-10-23",
+      "category": "Tournament Preview",
+      "title": "Two Rhinos teams ready for Domini Fox Memorial weekend",
+      "summary": "Rhinos Black and Rhinos Blue head to the Mountbatten Centre on 24–25 October. Here are Saturday's eight fixtures, both squads and everything supporters need to know.",
+      "body": [
+        "The Domini Fox Memorial Tournament returns to the Mountbatten Centre in Portsmouth this weekend, Saturday 24 and Sunday 25 October 2026. Fareham Rhinos will field two teams across the event, with Rhinos Black and Rhinos Blue both in action on Saturday.",
+        "<strong>Rhinos Black squad:</strong> Dave, Dean, Dobbo, Jas, Richard, Cliff, Nigel, Lyall, Chris and Wolfie.",
+        "<strong>Rhinos Blue squad:</strong> Donny, Lewis, Luce, Connor, Jelena, Sam, Lucas, Jacob (captain) and James.",
+        "<strong>Saturday 24 October – Rhinos Blue:</strong><br>09:30 vs Portsmouth Warriors (Court 2)<br>11:15 vs Guildford Inferno (Court 1)<br>13:00 vs Dreigiau Coch Cymru (Court 2)<br>14:45 vs In Vino Veritas Vienna (Court 1)",
+        "<strong>Saturday 24 October – Rhinos Black:</strong><br>10:05 vs Serious Squad (Court 1)<br>12:25 vs Brandts (Court 2)<br>13:35 vs Bury Kings (Court 1)<br>15:55 vs Leeds Galaxy (Court 2)",
+        "Sunday's fixtures have not yet been confirmed and will be shared when available. Saturday's schedule may be updated by the organisers.",
+        "Spectators and visitors are very welcome to come along, see some fantastic tchoukball and support the Rhinos. The venue is the Mountbatten Centre, Portsmouth. If you've never watched tchoukball before, this is a great opportunity to discover the sport.",
+        "Team captains or nominated representatives should attend the 09:15 briefing on Court 2 on Saturday. Players should also check with their team about refereeing duties and tournament arrangements.",
+        "Photography and filming will take place during the event. Players who do not wish to be featured by Tchoukball UK, Tchoukball Global or POOW Media should email engagement@tchoukball.org.uk by the end of Friday 23 October with their name. Teams have also been asked to confirm if no one is opting out.",
+        "Good luck to everyone competing, and come on the Rhinos!"
+      ]
+    },
+    {
+      "id": "2026-dfm-jacob-captain",
+      "date": "2026-10-23",
+      "category": "Club News",
+      "title": "A first for Jacob as he captains Rhinos Blue at Domini Fox",
+      "summary": "A proud moment for Jacob, who takes on the Rhinos Blue captaincy for the first time at this weekend's Domini Fox Memorial Tournament.",
+      "body": [
+        "This weekend's Domini Fox Memorial Tournament brings a special milestone for one of our own, as Jacob captains Rhinos Blue for the first time.",
+        "With the team set for four Saturday fixtures at the Mountbatten Centre in Portsmouth, Jacob steps into the role as Rhinos Blue face Portsmouth Warriors, Guildford Inferno, Dreigiau Coch Cymru and In Vino Veritas Vienna.",
+        "Taking on the captaincy is an exciting opportunity, and everyone at the club wishes Jacob and his teammates the very best for the weekend.",
+        "Come along and support Rhinos Blue and Rhinos Black on Saturday 24 and Sunday 25 October. Sunday's match schedule is still to be confirmed."
+      ]
+    },
+    {
       "id": "2026-27-league-dates-announced",
       "date": "2026-10-11",
       "category": "Season Preview",
