@@ -24,12 +24,12 @@ async function loadResults(){
  try{
   const [a,b]=await Promise.all([fetch("results.json",{cache:"no-store"}),fetch("fixtures.json",{cache:"no-store"})]);
   const archive=(await a.json()).matches||[], live=(await b.json()).matches||[];
-  const dfm=live.filter(m=>m.status==="upcoming" && m.type==="match" && m.competition==="Domini Fox Memorial Tournament 2026").sort((a,b)=>a.time.localeCompare(b.time));
+  const dfm=live.filter(m=>m.status==="upcoming" && m.type==="match" && m.competition==="Domini Fox Memorial Tournament 2026").sort((a,b)=>a.date.localeCompare(b.date)||a.time.localeCompare(b.time));
   const future=document.getElementById("upcoming-dfm");
   if(dfm.length){
     const blue=dfm.filter(m=>m.team==="Rhinos Blue"),black=dfm.filter(m=>m.team==="Rhinos Black");
-    const render=items=>items.map(m=>'<article class="result-row"><div class="result-date">24 Oct 2026<span>'+m.time+' · Court '+m.court+'</span></div><div class="result-team rhinos"><img src="FAREHAM_RHINOS_LOGO.png" alt=""><strong>'+m.team+'</strong></div><div class="result-score"><strong>VS</strong></div><div class="result-team opponent"><strong>'+m.opponent+'</strong></div></article>').join("");
-    future.innerHTML='<section class="season-block"><div class="season-heading"><div><p class="eyebrow orange">This weekend · Mountbatten Centre, Portsmouth</p><h2>DOMINI FOX 2026 FIXTURES</h2><p>Saturday 24 October confirmed · Sunday 25 October fixtures to be confirmed. Visitors welcome.</p></div></div><h3>RHINOS BLUE</h3><div class="results-list">'+render(blue)+'</div><h3 style="margin-top:24px">RHINOS BLACK</h3><div class="results-list">'+render(black)+'</div></section>';
+    const render=items=>items.map(m=>'<article class="result-row"><div class="result-date">'+fmt(m.date)+'<span>'+m.time+(m.court?' · Court '+m.court:'')+'</span></div><div class="result-team rhinos"><img src="FAREHAM_RHINOS_LOGO.png" alt=""><strong>'+m.team+'</strong></div><div class="result-score"><strong>VS</strong></div><div class="result-team opponent"><strong>'+m.opponent+'</strong></div></article>').join("");
+    future.innerHTML='<section class="season-block"><div class="season-heading"><div><p class="eyebrow orange">Sunday 25 October · Mountbatten Centre, Portsmouth</p><h2>DOMINI FOX 2026 · DAY TWO</h2><p>Saturday results below · Sunday group fixtures confirmed, with placement matches to follow.</p></div></div><h3>RHINOS BLUE</h3><div class="results-list">'+render(blue)+'</div><h3 style="margin-top:24px">RHINOS BLACK</h3><div class="results-list">'+render(black)+'</div></section>';
   }
   const map=new Map();
   archive.forEach(m=>map.set(m.id,m));
