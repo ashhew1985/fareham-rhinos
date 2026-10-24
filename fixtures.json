@@ -31,18 +31,18 @@
     {
       "id": "2026-dfm",
       "type": "tournament",
-      "status": "upcoming",
+      "status": "in-progress",
       "date": "2026-10-24",
       "endDate": "2026-10-25",
       "competition": "Domini Fox Memorial Tournament",
       "venue": "Mountbatten Centre",
       "location": "Portsmouth",
-      "note": "Saturday fixtures confirmed. Sunday's schedule to be confirmed."
+      "note": "Saturday results confirmed. Final group matches and placement games continue Sunday 25 October."
     },
     {
       "id": "2026-dfm-match-1",
       "type": "match",
-      "status": "upcoming",
+      "status": "completed",
       "date": "2026-10-24",
       "time": "09:30",
       "competition": "Domini Fox Memorial Tournament 2026",
@@ -50,25 +50,31 @@
       "opponent": "Portsmouth Warriors",
       "court": 2,
       "venue": "Mountbatten Centre",
-      "location": "Portsmouth"
+      "location": "Portsmouth",
+      "rhinosScore": 27,
+      "opponentScore": 36,
+      "teamLogo": "FAREHAM_RHINOS_LOGO.png"
     },
     {
       "id": "2026-dfm-match-2",
       "type": "match",
-      "status": "upcoming",
+      "status": "completed",
       "date": "2026-10-24",
       "time": "10:05",
       "competition": "Domini Fox Memorial Tournament 2026",
       "team": "Rhinos Black",
-      "opponent": "Serious Squad",
+      "opponent": "Banta Squad",
       "court": 1,
       "venue": "Mountbatten Centre",
-      "location": "Portsmouth"
+      "location": "Portsmouth",
+      "rhinosScore": 28,
+      "opponentScore": 34,
+      "teamLogo": "FAREHAM_RHINOS_LOGO.png"
     },
     {
       "id": "2026-dfm-match-3",
       "type": "match",
-      "status": "upcoming",
+      "status": "completed",
       "date": "2026-10-24",
       "time": "11:15",
       "competition": "Domini Fox Memorial Tournament 2026",
@@ -76,38 +82,31 @@
       "opponent": "Guildford Inferno",
       "court": 1,
       "venue": "Mountbatten Centre",
-      "location": "Portsmouth"
-    },
-    {
-      "id": "2026-dfm-match-4",
-      "type": "match",
-      "status": "upcoming",
-      "date": "2026-10-24",
-      "time": "12:25",
-      "competition": "Domini Fox Memorial Tournament 2026",
-      "team": "Rhinos Black",
-      "opponent": "Brandts",
-      "court": 2,
-      "venue": "Mountbatten Centre",
-      "location": "Portsmouth"
+      "location": "Portsmouth",
+      "rhinosScore": 24,
+      "opponentScore": 38,
+      "teamLogo": "FAREHAM_RHINOS_LOGO.png"
     },
     {
       "id": "2026-dfm-match-5",
       "type": "match",
-      "status": "upcoming",
+      "status": "completed",
       "date": "2026-10-24",
       "time": "13:00",
       "competition": "Domini Fox Memorial Tournament 2026",
       "team": "Rhinos Blue",
-      "opponent": "Dreigiau Coch Cymru",
+      "opponent": "Dreigiau Coch",
       "court": 2,
       "venue": "Mountbatten Centre",
-      "location": "Portsmouth"
+      "location": "Portsmouth",
+      "rhinosScore": 24,
+      "opponentScore": 37,
+      "teamLogo": "FAREHAM_RHINOS_LOGO.png"
     },
     {
       "id": "2026-dfm-match-6",
       "type": "match",
-      "status": "upcoming",
+      "status": "completed",
       "date": "2026-10-24",
       "time": "13:35",
       "competition": "Domini Fox Memorial Tournament 2026",
@@ -115,12 +114,15 @@
       "opponent": "Bury Kings",
       "court": 1,
       "venue": "Mountbatten Centre",
-      "location": "Portsmouth"
+      "location": "Portsmouth",
+      "rhinosScore": 40,
+      "opponentScore": 22,
+      "teamLogo": "FAREHAM_RHINOS_LOGO.png"
     },
     {
       "id": "2026-dfm-match-7",
       "type": "match",
-      "status": "upcoming",
+      "status": "completed",
       "date": "2026-10-24",
       "time": "14:45",
       "competition": "Domini Fox Memorial Tournament 2026",
@@ -128,18 +130,48 @@
       "opponent": "In Vino Veritas Vienna",
       "court": 1,
       "venue": "Mountbatten Centre",
-      "location": "Portsmouth"
+      "location": "Portsmouth",
+      "rhinosScore": 30,
+      "opponentScore": 38,
+      "teamLogo": "FAREHAM_RHINOS_LOGO.png"
     },
     {
       "id": "2026-dfm-match-8",
       "type": "match",
-      "status": "upcoming",
+      "status": "completed",
       "date": "2026-10-24",
       "time": "15:55",
       "competition": "Domini Fox Memorial Tournament 2026",
       "team": "Rhinos Black",
       "opponent": "Leeds Galaxy",
       "court": 2,
+      "venue": "Mountbatten Centre",
+      "location": "Portsmouth",
+      "rhinosScore": 39,
+      "opponentScore": 32,
+      "teamLogo": "FAREHAM_RHINOS_LOGO.png"
+    },
+    {
+      "id": "2026-dfm-black-taiwannabes",
+      "type": "match",
+      "status": "upcoming",
+      "date": "2026-10-25",
+      "time": "09:30",
+      "competition": "Domini Fox Memorial Tournament 2026",
+      "team": "Rhinos Black",
+      "opponent": "Taiwannabes",
+      "venue": "Mountbatten Centre",
+      "location": "Portsmouth"
+    },
+    {
+      "id": "2026-dfm-blue-bury-saints",
+      "type": "match",
+      "status": "upcoming",
+      "date": "2026-10-25",
+      "time": "10:40",
+      "competition": "Domini Fox Memorial Tournament 2026",
+      "team": "Rhinos Blue",
+      "opponent": "Bury Saints",
       "venue": "Mountbatten Centre",
       "location": "Portsmouth"
     }
