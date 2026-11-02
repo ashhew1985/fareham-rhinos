@@ -1,6 +1,20 @@
 {
   "stories": [
     {
+      "id": "2026-domini-fox-final-results",
+      "date": "2026-10-25",
+      "category": "Tournament News",
+      "title": "Rhinos finish eighth and tenth at Domini Fox 2026",
+      "summary": "Rhinos Black place eighth and Rhinos Blue tenth at the Domini Fox Memorial Tournament in Portsmouth, with Blue recording a one-point win over Bury Saints on the final day.",
+      "body": [
+        "Fareham Rhinos completed the Domini Fox Memorial Tournament on Sunday 25 October at the Mountbatten Centre in Portsmouth. The official final standings put Rhinos Black eighth and Rhinos Blue tenth out of 11 teams.",
+        "Black opened day two with a 27–35 group-stage result against Taiwannabes, before a close 33–36 defeat to In Vino Veritas Vienna in the fifth-place semi-final. Tchoukball UK records the seventh-place match against Leeds Galaxy as a 0–30 result, leaving Black eighth overall.",
+        "Blue's final group game ended 23–29 against Bury Saints. The sides met again in the 9th–11th place round, where Blue edged a 32–31 victory. A 27–33 result against Bury Kings in their final fixture confirmed tenth place.",
+        "Guildford Inferno won the tournament. Both Rhinos teams' confirmed scores from the weekend are available on the club Results page."
+      ],
+      "source": "https://www.tchoukball.org.uk/tch/dfm-2026/?tab=standings"
+    },
+    {
       "id": "2026-domini-fox-day-one-results",
       "date": "2026-10-24",
       "category": "Tournament Report",
