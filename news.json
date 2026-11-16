@@ -1,6 +1,20 @@
 {
   "stories": [
     {
+      "id": "2026-national-league-round-one",
+      "date": "2026-11-08",
+      "category": "Match Report",
+      "title": "Rhinos Orange open National League with two wins in Luton",
+      "summary": "Rhinos Orange begin the 2026/27 National League with two recorded wins, while Rhinos Blue take one win and one defeat in the opening round at Venue 360.",
+      "body": [
+        "Fareham Rhinos began their 2026/27 National League campaign on Sunday 8 November at Venue 360 – The Riverside in Luton, with Rhinos Orange and Rhinos Blue both appearing in the opening round.",
+        "Rhinos Orange recorded a 72–29 victory against Bury Wolves, alongside an officially recorded 30–0 result against Leeds Galaxy. That leaves Orange with two wins from two in the published league standings.",
+        "Rhinos Blue also have a 30–0 result recorded against Leeds Galaxy, before losing 35–65 to Bury Kings. Blue finish the opening round with one win and one defeat.",
+        "The 30–0 results are recorded in Tchoukball UK's official results; whether those fixtures were played in full has not been independently confirmed. The next National League round is scheduled for Sunday 22 November, again in Luton."
+      ],
+      "source": "https://www.tchoukball.org.uk/tch/nl-2027/"
+    },
+    {
       "id": "2026-domini-fox-final-results",
       "date": "2026-10-25",
       "category": "Tournament News",
