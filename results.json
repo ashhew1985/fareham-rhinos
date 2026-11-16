@@ -519,6 +519,64 @@
       "venue": "Mountbatten Centre",
       "location": "Portsmouth",
       "source": "https://www.tchoukball.org.uk/tch/dfm-2026/?match_id=781"
+    },
+    {
+      "id": "2026-11-08-nl-blue-leeds",
+      "date": "2026-11-08",
+      "time": "10:30",
+      "competition": "National League 2026/27",
+      "team": "Rhinos Blue",
+      "opponent": "Leeds Galaxy",
+      "rhinosScore": 30,
+      "opponentScore": 0,
+      "venue": "Venue 360 – The Riverside",
+      "location": "Luton",
+      "source": "https://www.tchoukball.org.uk/tch/nl-2027/",
+      "season": "2026/27",
+      "note": "Officially recorded 30–0 result; match-play status not independently verified"
+    },
+    {
+      "id": "2026-11-08-nl-blue-bury-kings",
+      "date": "2026-11-08",
+      "time": "12:30",
+      "competition": "National League 2026/27",
+      "team": "Rhinos Blue",
+      "opponent": "Bury Kings",
+      "rhinosScore": 35,
+      "opponentScore": 65,
+      "venue": "Venue 360 – The Riverside",
+      "location": "Luton",
+      "source": "https://www.tchoukball.org.uk/tch/nl-2027/",
+      "season": "2026/27"
+    },
+    {
+      "id": "2026-11-08-nl-orange-bury-wolves",
+      "date": "2026-11-08",
+      "time": "13:30",
+      "competition": "National League 2026/27",
+      "team": "Rhinos Orange",
+      "opponent": "Bury Wolves",
+      "rhinosScore": 72,
+      "opponentScore": 29,
+      "venue": "Venue 360 – The Riverside",
+      "location": "Luton",
+      "source": "https://www.tchoukball.org.uk/tch/nl-2027/",
+      "season": "2026/27"
+    },
+    {
+      "id": "2026-11-08-nl-orange-leeds",
+      "date": "2026-11-08",
+      "time": "15:30",
+      "competition": "National League 2026/27",
+      "team": "Rhinos Orange",
+      "opponent": "Leeds Galaxy",
+      "rhinosScore": 30,
+      "opponentScore": 0,
+      "venue": "Venue 360 – The Riverside",
+      "location": "Luton",
+      "source": "https://www.tchoukball.org.uk/tch/nl-2027/",
+      "season": "2026/27",
+      "note": "Officially recorded 30–0 result; match-play status not independently verified"
     }
   ]
 }
