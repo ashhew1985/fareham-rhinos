@@ -1,6 +1,20 @@
 {
   "stories": [
     {
+      "id": "2026-national-league-round-two",
+      "date": "2026-11-22",
+      "category": "Match Report",
+      "title": "Orange edge Rhinos derby as National League continues in Luton",
+      "summary": "Rhinos Orange beat Rhinos Blue 61–42 in the club derby before narrowly losing 54–55 to Guildford Inferno; Blue also fell 41–75 to Portsmouth Warriors.",
+      "body": [
+        "Fareham Rhinos returned to Venue 360 – The Riverside in Luton on Sunday 22 November for the second round of the 2026/27 National League, with Orange and Blue both in action.",
+        "The day began with an all-Rhinos meeting, Orange taking a 61–42 win against Blue. Later, Blue lost 41–75 to Portsmouth Warriors.",
+        "Orange's second fixture was decided by a single point, Guildford Inferno winning 55–54. After four league matches, Orange have three wins and one defeat, while Blue have one win and three defeats.",
+        "All three scores are recorded in Tchoukball UK's official National League results."
+      ],
+      "source": "https://www.tchoukball.org.uk/tch/nl-2027/"
+    },
+    {
       "id": "2026-national-league-round-one",
       "date": "2026-11-08",
       "category": "Match Report",
