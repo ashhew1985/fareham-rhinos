@@ -577,6 +577,48 @@
       "source": "https://www.tchoukball.org.uk/tch/nl-2027/",
       "season": "2026/27",
       "note": "Officially recorded 30–0 result; match-play status not independently verified"
+    },
+    {
+      "id": "2026-11-22-nl-orange-blue",
+      "date": "2026-11-22",
+      "time": "09:30",
+      "season": "2026/27",
+      "competition": "National League 2026/27",
+      "team": "Rhinos Orange",
+      "opponent": "Rhinos Blue",
+      "rhinosScore": 61,
+      "opponentScore": 42,
+      "venue": "Venue 360 – The Riverside",
+      "location": "Luton",
+      "source": "https://www.tchoukball.org.uk/tch/nl-2027/"
+    },
+    {
+      "id": "2026-11-22-nl-blue-portsmouth-warriors",
+      "date": "2026-11-22",
+      "time": "12:30",
+      "season": "2026/27",
+      "competition": "National League 2026/27",
+      "team": "Rhinos Blue",
+      "opponent": "Portsmouth Warriors",
+      "rhinosScore": 41,
+      "opponentScore": 75,
+      "venue": "Venue 360 – The Riverside",
+      "location": "Luton",
+      "source": "https://www.tchoukball.org.uk/tch/nl-2027/"
+    },
+    {
+      "id": "2026-11-22-nl-orange-guildford",
+      "date": "2026-11-22",
+      "time": "15:30",
+      "season": "2026/27",
+      "competition": "National League 2026/27",
+      "team": "Rhinos Orange",
+      "opponent": "Guildford Inferno",
+      "rhinosScore": 54,
+      "opponentScore": 55,
+      "venue": "Venue 360 – The Riverside",
+      "location": "Luton",
+      "source": "https://www.tchoukball.org.uk/tch/nl-2027/"
     }
   ]
 }
